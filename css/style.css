@@ -17,7 +17,6 @@ body {
   margin-top: 10px;
   border: 10px solid black;
   background-image: url(../img/natural.jpg);
-
 }
 .logo {
   position: absolute;
@@ -38,6 +37,34 @@ h1 {
 header {
 
 }
+nav {
+  background-color: #999;
+  height: 72px
+}
+.menu {
+  list-style: none;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 70px;
+  font-size: 20px
+}
+
+.menu li:hover {
+  background-color: #666;
+}
+.menu a {
+  line-height: 70px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+
+}
+.col-central h2 {
+  margin-bottom: 15px
+}
 
 main {
   margin: 20px 0;
@@ -56,6 +83,20 @@ main::after {
   width: 23%;
   margin-right: 7%;
   background-color: #fff;
+}
+.fa-rss-square {
+  padding: 2px;
+  float: left;
+  font-size: 30px;
+  color: green;
+  height: 40px
+}
+ol {
+  list-style: none;
+}
+li {
+  padding-top: 5px;
+  padding-bottom: 5px
 }
 .col-central {
 
