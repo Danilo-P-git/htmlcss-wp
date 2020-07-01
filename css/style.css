@@ -141,7 +141,22 @@ aside {
   text-shadow: 2px 2px 0px rgba(0,0,0,.1);
 
 }
+
+
 footer {
   height: 100px;
   background-color: #fff;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+  color: #a7a7a7;
+}
+footer hr {
+  height: 1px;
+  background-color: #a7a7a7;
+  border: none;
 }
