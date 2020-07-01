@@ -144,6 +144,7 @@ aside {
 
 
 footer {
+  position: relative;
   height: 100px;
   background-color: #fff;
   border: 3px solid white;
@@ -159,4 +160,22 @@ footer hr {
   height: 1px;
   background-color: #a7a7a7;
   border: none;
+}
+.fa-facebook-square {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: 50px;
+}
+.fa-instagram {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: 50px;
+}
+.fa-github {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: 50px;
 }
