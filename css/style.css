@@ -15,7 +15,7 @@ body {
   position: relative;
   height: 300px;
   margin-top: 10px;
-  border: 10px solid black;
+  border: 10px solid white;
   background-image: url(../img/natural.jpg);
 }
 .logo {
@@ -34,9 +34,6 @@ h1 {
   border: 5px solid white;
   padding: 5px 10px;
 }
-header {
-
-}
 nav {
   background-color: #514741;
   height: 73px
@@ -47,9 +44,9 @@ nav {
 }
 .menu li {
   display: inline-block;
-  padding: 0 30px;
+  padding: 0 15px;
   line-height: 70px;
-  font-size: 20px
+  font-size: 15px
 }
 
 .menu li:hover {
@@ -182,5 +179,5 @@ footer hr {
   width: 33%;
   font-size: 50px;
   color: #a7a7a7;
-  
+
 }
